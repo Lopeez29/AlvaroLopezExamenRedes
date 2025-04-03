@@ -8,7 +8,7 @@ https://github.com/Lopeez29/AlvaroLopezExamenRedes.git
 
 
 **Accede a la parte teórica**:  
-[👉 Soluciones/Parte Teórica.md](./Soluciones/Parte%20Teórica.md)
+[Parte Teórica.](./Soluciones/Parte%20Teórica.md)
 
 
 ## Cisco Packet Tracer
@@ -18,4 +18,15 @@ https://github.com/Lopeez29/AlvaroLopezExamenRedes.git
 
 **Accede a al Ejercicio 1**:  
 
-[Soluciones/Cisco Packet Tracer/Ejercicio1.md](./Soluciones/Cisco%20Packet%20Tracer/Ejercicio1.md)
+[Ejercicio 1.](./Soluciones/Cisco%20Packet%20Tracer/Ejercicio1.md)
+
+
+## Lore 
+
+
+### - Contexto
+
+
+**Descubre el contexto del examen**:  
+
+[Lore.](./Soluciones/Lore/Contexto)
