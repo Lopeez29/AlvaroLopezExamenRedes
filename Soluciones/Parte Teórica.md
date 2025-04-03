@@ -45,7 +45,7 @@ Los rituales hacen referencia a dos protocolos esenciales en la **capa de transp
   *Desventaja:* Menor confiabilidad, ya que no se asegura la entrega de todos los paquetes.
 
 
-  **Pregunta 3:**  
+**Pregunta 3:**  
 *Descifra el enigma de la losa. Si la antigua red usaba la dirección 192.168.50.0 como base y necesitaba dividirse en 4 subredes de igual tamaño (una para cada gremio), ¿qué máscara de subred habrían utilizado los antiguos para lograrlo? ¿Cuántas direcciones de host (utilizables) tendría cada subred resultante? Explica brevemente tu razonamiento al calcular la máscara.*
 
 **Respuesta:**  
