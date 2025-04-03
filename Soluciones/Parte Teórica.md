@@ -45,3 +45,23 @@ Los rituales hacen referencia a dos protocolos esenciales en la **capa de transp
   *Desventaja:* Menor confiabilidad, ya que no se asegura la entrega de todos los paquetes.
 
 
+  **Pregunta 3:**  
+*Descifra el enigma de la losa. Si la antigua red usaba la dirección 192.168.50.0 como base y necesitaba dividirse en 4 subredes de igual tamaño (una para cada gremio), ¿qué máscara de subred habrían utilizado los antiguos para lograrlo? ¿Cuántas direcciones de host (utilizables) tendría cada subred resultante? Explica brevemente tu razonamiento al calcular la máscara.*
+
+**Respuesta:**  
+Para dividir la red **192.168.50.0/24** en 4 subredes iguales, debemos seleccionar **2 bits** del campo de host, lo que nos lleva a una nueva máscara de **/26** (Al "seleccionar" esos 2 bits de los 8 de hosts, la nueva máscara se convierte en **/24 + 2 = /26**.). Esto significa lo siguiente:
+
+- Cada subred tendrá **2^(8-2) = 2^6 = 64** direcciones totales (el 2 viene de los posibles casos 0 o 1 mientras que el exponente se define según los bits que has tomado prestado para crear las subredes que necesites).
+- De estas, la **primera dirección** se reserva para identificar la subred (dirección de red) y la **última** para el broadcast, dejando **64 - 2 = 62 direcciones de host utilizables** en cada subred.
+
+Las subredes quedarían distribuidas de la siguiente manera:
+
+1. **Subred 1:** 192.168.50.0 - 192.168.50.63  
+2. **Subred 2:** 192.168.50.64 - 192.168.50.127  
+3. **Subred 3:** 192.168.50.128 - 192.168.50.191  
+4. **Subred 4:** 192.168.50.192 - 192.168.50.255  
+
+
+
+
+
