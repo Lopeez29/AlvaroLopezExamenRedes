@@ -72,10 +72,9 @@ El tótem representa un **router**, un dispositivo que dirige el tráfico de dat
   Una **tabla de enrutamiento** es una base de datos interna en el router que almacena información sobre las rutas disponibles para llegar a diferentes destinos. Esta tabla incluye datos como:  
   - La **dirección de la red destino**.  
   - La **máscara de subred** asociada.  
-  - El **próximo salto** (next hop) a seguir.  
+  - El **próximo salto** a continuación.  
   - La **interfaz de salida** por la que se debe enviar el paquete.  
   - Una métrica o cantidad de saltos mínimos necesarios para alcanzar el destino.  
-  Con esta información, el router determina la ruta más eficiente para que cada paquete llegue a su destino.
 
 - **Enrutamiento Estático vs. Enrutamiento Dinámico:**  
   - Las **flechas talladas en piedra** simbolizan el **enrutamiento estático**, donde las rutas se configuran manualmente y permanecen fijas a menos que alguien las modifique.  
