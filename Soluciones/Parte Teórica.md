@@ -56,11 +56,32 @@ Para dividir la red **192.168.50.0/24** en 4 subredes iguales, debemos seleccion
 
 Las subredes quedarían distribuidas de la siguiente manera:
 
-1. **Subred 1:** 192.168.50.0 - 192.168.50.63  
-2. **Subred 2:** 192.168.50.64 - 192.168.50.127  
-3. **Subred 3:** 192.168.50.128 - 192.168.50.191  
-4. **Subred 4:** 192.168.50.192 - 192.168.50.255  
+- **Subred 1:** 192.168.50.0 - 192.168.50.63  
+- **Subred 2:** 192.168.50.64 - 192.168.50.127  
+- **Subred 3:** 192.168.50.128 - 192.168.50.191  
+- **Subred 4:** 192.168.50.192 - 192.168.50.255  
 
+
+**Pregunta 4:**  
+*¿Qué concepto moderno de redes representa el tótem con flechas de la encrucijada? Explica qué es una tabla de enrutamiento y cómo funciona en un router actual. Además, interpreta la diferencia entre las flechas talladas en piedra y las flechas móviles en términos de enrutamiento estático vs. enrutamiento dinámico en redes.*
+
+**Respuesta:**  
+El tótem representa un **router**, un dispositivo que dirige el tráfico de datos entre diferentes redes. Cada “aldea” simboliza una **red distinta**.
+
+- **Tabla de Enrutamiento:**  
+  Una **tabla de enrutamiento** es una base de datos interna en el router que almacena información sobre las rutas disponibles para llegar a diferentes destinos. Esta tabla incluye datos como:  
+  - La **dirección de la red destino**.  
+  - La **máscara de subred** asociada.  
+  - El **próximo salto** (next hop) a seguir.  
+  - La **interfaz de salida** por la que se debe enviar el paquete.  
+  - Una métrica o cantidad de saltos mínimos necesarios para alcanzar el destino.  
+  Con esta información, el router determina la ruta más eficiente para que cada paquete llegue a su destino.
+
+- **Enrutamiento Estático vs. Enrutamiento Dinámico:**  
+  - Las **flechas talladas en piedra** simbolizan el **enrutamiento estático**, donde las rutas se configuran manualmente y permanecen fijas a menos que alguien las modifique.  
+  - Las **flechas móviles** representan el **enrutamiento dinámico**, en el cual las rutas se determinan automáticamente mediante algoritmos.
+  - *Ventaja del enrutamiento dinámico:* Automatiza la adaptación a cambios, reduciendo la necesidad de intervención manual.  
+  - *Desventaja:* Consume más ancho de banda y puede ser menos seguro en comparación con las rutas estáticas.
 
 
 
