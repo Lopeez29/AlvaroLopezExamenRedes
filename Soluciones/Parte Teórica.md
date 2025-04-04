@@ -84,5 +84,12 @@ El tótem representa un **router**, un dispositivo que dirige el tráfico de dat
   - *Desventaja:* Consume más ancho de banda y puede ser menos seguro en comparación con las rutas estáticas.
 
 
+**Pregunta 5:**  
+*¿Qué técnica de redes moderna se refleja en la leyenda del Guardián de la Máscara? Nombra y describe brevemente este mecanismo, explicando cómo permite que múltiples dispositivos internos de una red compartan una única identidad (dirección) al comunicarse con el exterior, y menciona dos beneficios que brinda esta estrategia a las redes actuales.*
+
+**Respuesta:**  
+El guardián de la máscara es una metáfora de **NAT**, concretamente de un tipo de NAT dinámico. Este mecanismo permite que varios dispositivos dentro de una red privada, que poseen direcciones IP internas únicas, compartan una sola dirección IP pública cuando se comunican con el exterior. El router realiza esta tarea asignando diferentes puertos a cada dispositivo, de modo que, al recibir la respuesta, sepa a qué dispositivo interno corresponde cada paquete basándose en el puerto utilizado.
+
+Esta estrategia evita la necesidad de comprar múltiples direcciones IP públicas, lo cual es especialmente importante y necesitado ante la escasez de direcciones IPv4. Además, NAT añade una capa extra de privacidad, ya que las direcciones internas de los dispositivos permanecen ocultas para el exterior, protegiendo así la red de accesos no autorizados.
 
 
