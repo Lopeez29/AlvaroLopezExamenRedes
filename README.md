@@ -21,6 +21,13 @@ https://github.com/Lopeez29/AlvaroLopezExamenRedes.git
 [Ejercicio 1.](./Soluciones/Cisco%20Packet%20Tracer/Ejercicio1.md)
 
 
+### - Ejercicio 2
+
+**Accede a al Ejercicio 2**:  
+
+[Ejercicio 2.](./Soluciones/Cisco%20Packet%20Tracer/Ejercicio1.md)
+
+
 ## Lore 
 
 
